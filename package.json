@@ -1,0 +1,29 @@
+{
+  "name": "dog-api-clone",
+  "version": "1.0.0",
+  "description": "Dog API Clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-json-modules ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/injoonH/Dog-API-Clone.git"
+  },
+  "keywords": [
+    "Dog",
+    "API"
+  ],
+  "author": "Injoon Hwang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/injoonH/Dog-API-Clone/issues"
+  },
+  "homepage": "https://github.com/injoonH/Dog-API-Clone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "type": "module"
+}
